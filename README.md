@@ -10,7 +10,7 @@ The definition of the Shank language can be found in the "Shank Language Definit
 - **Lexer**: Converts raw text into a series of tokens based on the Shank language specifications.
 - **Parser**: Builds an Abstract Syntax Tree (AST) from tokens to represent the program structure. The parser uses a recursive descent top-down approach.
 - **Interpreter**: Executes Shank code by traversing the AST and performing the operations defined within.
-- **Error Handling**: Robust error management to handle syntax and execution errors gracefully.
+- **Error Handling**: Error management to handle syntax and execution errors.
 - **File Handling**: Ability to read .shank files and process them through the interpreter pipeline.
 
 
